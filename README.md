@@ -330,7 +330,7 @@ Navigate back to the browser and osTicket Basic Installation and input the datab
 <img src="https://i.imgur.com/CBTUHUg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Navigate back to the browser and osTicket Basic Installation and input the database name, root user, and the password created with MySQL.
+Click Install to finish the process. Congratulations!
 </p>
 <br />
 
@@ -338,7 +338,7 @@ Navigate back to the browser and osTicket Basic Installation and input the datab
 <img src="https://i.imgur.com/mrevCZl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Click Install to finish the process. Congratulations!
+Now let’s navigate back to delete the setup folder, otherwise osTicket will bug you with alerts to setup.
 </p>
 <br />
 

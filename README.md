@@ -102,6 +102,182 @@ Once the installation completes, you’ll notice a few things failed and that’
 <br />
 
 <p>
+<img src="https://i.imgur.com/Lkxsldh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Download Microsoft Visual C++ 2008 (vcredist_x86) and PHPManagerForIIS_V1.5.0
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/jYUUuJ7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Install Microsoft Visual C++ 2008 (vcredist_x86)
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/2vVx8pO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Install PHP Manager
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/KI85cGV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Download and extract osTicket-v1.15.8
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/52YbM64.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After extracting, copy the upload folder.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/alzXpo8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Paste the “upload” folder to This PC > Windows (C:) > inetpub > wwwroot
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/6mTFLut.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Rename the “upload” folder to “osTicket”
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/glp9LTe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open up IIS. You can search for it in the search bar on the bottom left. On the right side of the window, click “restart”.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/AwHv4ta.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+On the left, open the drop down vm-osticket > Sites > Default Web Site > osTicket. Select osTicket and on the right side of the window, click “Browse *:80 (http)”
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/GuJDNk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+The browser should open with osTicket Installer.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/jHvdLNv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open IIS Manager again and click PHP Manager.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/6AjT21A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Click “Enable or disable an extension” on the bottom
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/IaO37s3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Right click and enable php_intl.dll
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/cSxaw13.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Make sure php_imap.dll is enabled.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/6R8DEdw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Enable php_opcache.dll
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>

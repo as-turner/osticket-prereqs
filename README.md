@@ -241,7 +241,7 @@ Changes made.
 <img src="https://i.imgur.com/BuxGKBe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Navigat to the folder: This PC > Windows (C:) > inetpub › wwwroot > oslicket > include. Find and rename “ost-sampleconfig.php” to “ost-config.php”. Make sure the spelling is correct.
+Navigate to the folder: This PC > Windows (C:) > inetpub › wwwroot > oslicket > include. Find and rename “ost-sampleconfig.php” to “ost-config.php”. Make sure the spelling is correct.
 </p>
 <br />
 
@@ -289,7 +289,8 @@ Fill in the info. The email addresses will need to be different.
 <img src="https://i.imgur.com/mBG83fM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Download and install HeidiSQL 12.0.0.6468.
+
 </p>
 <br />
 
@@ -297,7 +298,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/g32SSAW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Download and install HeidiSQL 12.0.0.6468.
+Create a new connection and use the password you created with MySQL. Remember the user was “root”. Click open.
 </p>
 <br />
 
@@ -305,7 +306,7 @@ Download and install HeidiSQL 12.0.0.6468.
 <img src="https://i.imgur.com/oIOvqLh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create a new connection and use the password you created with MySQL. Remember the user was “root”. Click open.
+Now create a new database.
 </p>
 <br />
 
@@ -313,7 +314,7 @@ Create a new connection and use the password you created with MySQL. Remember th
 <img src="https://i.imgur.com/huwXby8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now create a new database.
+I went ahead and named it osticket to keep things simple.
 </p>
 <br />
 
@@ -321,7 +322,7 @@ Now create a new database.
 <img src="https://i.imgur.com/wrL9yMS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I went ahead and named it osticket to keep things simple.
+Navigate back to the browser and osTicket Basic Installation and input the database name, root user, and the password created with MySQL.
 </p>
 <br />
 
@@ -345,7 +346,7 @@ Click Install to finish the process. Congratulations!
 <img src="https://i.imgur.com/U7NNFhS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now let’s navigate back to delete the setup folder, otherwise osTicket will bug you with alerts to setup.
+Delete the contents of the setup folder to be able to delete the actual folder.
 </p>
 <br />
 
@@ -353,7 +354,7 @@ Now let’s navigate back to delete the setup folder, otherwise osTicket will bu
 <img src="https://i.imgur.com/rWtGVEC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Delete the contents of the setup folder to be able to delete the actual folder.
+Navigate back to the ost-config.php file and change its permissions to “Read and execute” and “Read”. Don’t forget to apply the changes before hitting okay.
 </p>
 <br />
 

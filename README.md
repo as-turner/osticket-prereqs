@@ -41,17 +41,51 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Enter virtual machines in the search. Under Services, select Virtual machines. In the Virtual machines page, 
-  
-select Create and then Azure virtual machine. The Create a virtual machine page opens.
+1. Navigate to Azure portal
+
+2. Click Resource groups
+
+3.  Click "+ Create" to create a new Resource Group
+
+4. Select the Subscription from the drop down menu
+
+5. Name the new Resource group
+
+6. Select the Region. Even though you choose a region for your resource group, the resources that you put into it don't all have to be in that region!
+
+7. Click "Next : Tags >"
+
+8. Add Tags (optional)
+
+9. Click "Next: Review + create >"
+
+10. Click Create
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Qw0QdOt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Enter virtual machines in the search. Under Services, select Virtual machines. In the Virtual machines page, 
+
+1. Enter virtual machines in the search.
+   
+2. Under Services, select Virtual machines.
+   
+3. In the Virtual machines page, select Create and then Azure virtual machine. The Create a virtual machine page opens.
+   
+4. Under Instance details, enter myVM for the Virtual machine name and choose Windows Server 2022 Datacenter: Azure Edition - x64 Gen 2 for the Image. Leave the other defaults.
+
+5. Under Administrator account, provide a username, such as azureuser and a password. The password must be at least 12 characters long and meet the defined complexity requirements.
+
+6. Under Inbound port rules, choose Allow selected ports and then select RDP (3389) and HTTP (80) from the drop-down.
+
+7. Leave the remaining defaults and then select the Review + create button at the bottom of the page.
+
+8. After validation runs, select the Create button at the bottom of the page.
+
+9. After deployment is complete, select Go to resource.
+
 </p>
 <br />
 

@@ -174,7 +174,7 @@ On the left, open the drop down vm-osticket > Sites > Default Web Site > osTicke
 <br />
 
 <p>
-<img src="https://i.imgur.com/GuJDNk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CGuJDNk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 The browser should open with osTicket Installer.
